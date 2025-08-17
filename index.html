@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spotify Web - Gaan Shon</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/utility.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header flex sp-btw align-items-centre p-6lr">
+    <img src="images/logo.svg" class="logo pointer m-8lr" alt="">
+    <div class="right-r flex align-items-centre">
+      <a href="#" class="scale-hover m-8lr bold expr bg-white">Explore Premium</a>
+      <a href="#" class="m-8lr rounded p-6 flex bold scale-nc-hover align-items-centre justify-centre"><img
+          src="images/down.svg" alt="">Install App</a>
+      <a href="#" class="scale-nc-hover flex align-items-centre m-8lr"><img src="images/noti.svg" alt=""></a>
+      <a href="#" class="scale-nc-hover flex align-items-centre m-8lr"><img src="images/connect.svg" alt=""></a>
+      <div class="user pointer flex justify-centre align-items-centre">
+        <img src="images/user.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="flex">
+    <div class="left">
+      <div class="bt-shade"></div>
+      <div class="left-bt m-8tb bg-gblack rounded scale-nc-hover">
+        <div class="library p-8">
+          <div class="flex sp-btw align-items-centre">
+            <span class="p-8 m-8 flex align-items-centre icon bold"><img src="images/browse.svg" class="" alt=""> Your
+              Library</span>
+            <span
+              class="p-8 col-hover rounded-xl m-8 flex justify-centre align-items-centre square bold font-24">+</span>
+          </div>
+          <!-- Songs Lists -->
+          <div class="songs-list">
+            <div class="songs m-8 bg-gblack rounded">
+              <ul class="p-8">
+              </ul>
+            </div>
+          </div>
+          <div class="card col-hover bg-gray m-8 p-8 rounded">
+            <div class="p-8">
+              <div class="bold p-6tb">Create Your First Playlist</div>
+              <div> It's easy we'll help you</div>
+            </div>
+            <button type="button" class="scale-hover bg-white rounded-l m-8"
+              style="border: none; padding: 8px 16px">Create
+              playlist</button>
+          </div>
+          <div class="card col-hover bg-gray p-8 m-8 rounded">
+            <div class="p-8">
+              <div class="bold p-6tb">Lets find Some podcasts to Follow</div>
+              <div> We'll keep You updated on new episodes</div>
+            </div>
+            <button type="button" class="scale-hover bg-white rounded-l m-8"
+              style="border: none; padding: 8px 16px">Browse
+              podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="container bg-gblack rounded">
+        <div class="spotify-playlists rounded">
+          <div class="made-for">
+            <p>Made For</p>
+            <h1>Saikat Chakraborty</h1>
+          </div>
+          <div class="card-container">
+            <div class="arrow larrow">
+              <img src="images/left-arrow-backup-2-svgrepo-com.svg" alt="">
+            </div>
+            <div class="arrow rarrow">
+              <img src="images/right-arrow-backup-2-svgrepo-com.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div class="playbar flex align-items-centre">
+      <div class="b-left">
+        <p>Now Playing</p>
+        <h3 class="s-title">Nothing</h3>
+      </div>
+      <div class="b-centre justify-centre">
+        <div class="play-buttons flex align-items-centre invert">
+          <div class="prev align-items-centre flex m-8lr pointer">
+            <img src="images/prevsong.svg" alt="">
+          </div>
+          <div class="play rounded-xl flex align-items-centre justify-centre m-8lr pointer">
+            <img src="images/play-circle.svg" alt="">
+          </div>
+          <div class="next align-items-centre flex m-8lr pointer">
+            <img src="images/nextsong.svg" alt="">
+          </div>
+        </div>
+        <div class="seekcont flex align-items-centre">
+          <span class="curr-time">00:00</span>
+          <div class="seekbar pointer flex align-items-centre rounded">
+            <div class="progress rounded">
+            </div>
+            <div class="circle">
+            </div>
+          </div>
+          <span class="total-time">00:00</span>
+        </div>
+      </div>
+      <div class="b-right flex align-items-centre">
+        <img class="mute invert p-6lr pointer" src="images/volume.svg" alt="">
+        <div class="volbar pointer flex align-items-centre rounded">
+          <div class="volume rounded">
+          </div>
+          <div class="circle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

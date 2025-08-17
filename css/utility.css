@@ -1,0 +1,125 @@
+.rounded {
+  border-radius: 7px;
+}
+
+.rounded-l {
+  border-radius: 14px;
+}
+
+.rounded-xl {
+  border-radius: 47px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-centre {
+  justify-content: center;
+}
+
+.align-items-centre {
+  align-items: center;
+}
+
+.bg-gblack {
+  background-color: #121212;
+  color: #d1d1d1;
+}
+
+.bg-gray {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.p-2 {
+  padding: 2px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.m-8lr {
+  margin: 0 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+.p-6tb {
+  padding: 6px 0;
+}
+
+.p-6lr {
+  padding: 0 6px;
+}
+
+.sp-btw {
+  justify-content: space-between;
+}
+
+.j-centre {
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}
+
+.col-hover:hover {
+  transition: background-color 0.4s ease-out;
+  background-color: #4f4f4f;
+}
+
+.scale-hover:hover {
+  background-color: #d1d1d1;
+  transform: scale(1.04);
+  transition: background-color 0.2s ease, transform 0.2s ease-out;
+}
+
+.scale-nc-hover:hover {
+  transform: scale(1.02);
+  z-index: 2;
+  transition: transform 0.2s ease-out;
+}
+
+.invert {
+  filter: invert();
+}
+
+.square {
+  height: 23px;
+  width: 23px;
+}
+
+.pointer {
+  cursor: pointer;
+}
