@@ -1,2 +1,2 @@
 # Spotify-Clone
-A clone of spotify.. nah uh
+A working simple clone of spotify
